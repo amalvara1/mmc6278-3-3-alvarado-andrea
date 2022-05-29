@@ -2,8 +2,8 @@ function runQuiz() {
    
     var questionsArr = [
         {
-            question:'Dogs are a woman/mans best friend',
-            answer: true
+            'Dogs are a woman/mans best friend',
+            true
         },
         {
             question:'Local coffee is superior to Starbucks',
@@ -22,6 +22,11 @@ function runQuiz() {
             answer: true
         },
     ];
-   
+    for (let i = 0; i < questionsArr.length; i++) {
+        var question = questionsArr[i]
+        //console.log(question)
+        var answer = confirm(question)
+    }
+    
 
 }
