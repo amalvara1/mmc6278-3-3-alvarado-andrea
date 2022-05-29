@@ -1,23 +1,23 @@
 
     var questionsArr = [
         {
-            question:'Dogs are a woman/mans best friend',
+            question:'Dogs are a mans best friend',
             answer: true
         },
         {
-            question:'Local coffee is superior to Starbucks',
+            question:'Christmas is on December 25th.',
             answer: true
         },
         {
-            question: 'George Washington was the 1st President',
+            question: 'George Washington was the 1st President.',
             answer: true
         },
         {
-            question: '21 is the legal drinking age',
+            question: '21 is the legal drinking age.',
             answer: true
         },
         {
-            question: 'Sunscreen can protect you from sun damage',
+            question: 'Z is the last letter of the alphabet',
             answer: true
         },
     ];
