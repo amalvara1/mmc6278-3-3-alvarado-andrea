@@ -9,12 +9,12 @@
             answer: true
         },
         {
-            question: 'George Washington was the 10th President',
-            answer: false
+            question: 'George Washington was the 1st President',
+            answer: true
         },
         {
-            question: '18 is the legal drinking age',
-            answer: false
+            question: '21 is the legal drinking age',
+            answer: true
         },
         {
             question: 'Sunscreen can protect you from sun damage',
