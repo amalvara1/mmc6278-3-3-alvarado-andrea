@@ -19,7 +19,7 @@
         {
             question: 'Z is the last letter of the alphabet',
             answer: true
-        },
+        }
     ];
 
 function runQuiz() {
@@ -28,15 +28,12 @@ function runQuiz() {
     for (let i = 0; i < questionsArr.length; i++) {
         var question = questionsArr[i]
         var answer = confirm(question)
-
         if (answer) {
             correct++
         }
     }
    
-
-
-    var score = Math.round((correct.answer/ 5)* 100)
+    var score = Math.round((correct/ 5)* 100)
 
         if(correct >= 5) {
             alert("You got a 100%")
