@@ -39,13 +39,17 @@ function runQuiz() {
         alert("you got a 100%")
     }  else {
         alert("you got a 0%")
-    }
-    */  
+    }*/
+    
 
-    if(correct >= Math.round(questionsArr.length)) {
+
+    score = (Math.round(correct/questionsArr.length * 100))
+
+    if(correct >= Math.round(questionsArr.length / 5)) {
         alert("You got a 100%")
     } else {
         alert("You got a 0%")
     }    
     
 }
+
