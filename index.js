@@ -20,7 +20,7 @@
             question: 'Z is the last letter of the alphabet',
             answer: true
         },
-    ]
+    ];
 
 function runQuiz() {
 
@@ -34,22 +34,13 @@ function runQuiz() {
         }
     }
    
-    /*score = (correct >= Math.round(correct / questionsArr * 100));
-    if(correct >= 5)) {
-        alert("you got a 100%")
-    }  else {
-        alert("you got a 0%")
-    }*/
-    
 
 
-    score = (Math.round(correct/questionsArr.length * 100))
+    var score = Math.round((correct.answer/ 5)* 100)
 
-    if(correct >= Math.round(questionsArr.length / 5)) {
-        alert("You got a 100%")
-    } else {
-        alert("You got a 0%")
-    }    
-    
+        if(correct >= 5) {
+            alert("You got a 100%")
+        } else {
+            alert("You got a " + score + "%") 
+        }                          
 }
-
