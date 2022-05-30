@@ -28,7 +28,7 @@ function runQuiz() {
     for (let i = 0; i < questionsArr.length; i++) {
         var question = questionsArr[i]
         var answer = confirm(question)
-        if (answer) {
+        if (answer == true) {
             correct++
         }
     }
